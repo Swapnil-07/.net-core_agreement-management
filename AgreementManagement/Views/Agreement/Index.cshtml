@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/lib/data-table/css/dataTables.min.css" rel="stylesheet" />
+<script src="~/lib/data-table/js/dataTables.min.js"></script>
+
+<script src="~/js/Agreement/index.js"></script>
+
+<h3>Agreement</h3>
+
+<p>
+    <button class="btn btn-warning" onclick="createAgreement();">Create New</button>
+</p>
+<div class="container">
+    <div class="table-responsive mb-0">
+        <table class="table table-striped" id="dataTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>
+                        User Name
+                    </th>
+                    <th>
+                        Product Group Code
+                    </th>
+                    <th>
+                        Product Number
+                    </th>
+                    <th>
+                        Effective Date
+                    </th>
+                    <th>
+                        Expiration Date
+                    </th>
+                    <th>
+                        Product Price
+                    </th>
+                    <th>
+                        New Price
+                    </th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
